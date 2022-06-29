@@ -1,0 +1,18 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+body {font-family: 'Poppins', sans-serif; background-color: #222; color: #FFF;}
+
+.conteudo {max-width: 500px; margin: 30px auto; min-height: 300px; border: 2px solid #8500ff; padding: 20px; border-radius: 10px;}
+
+.conteudo .titulo {text-align: center;}
+
+.conteudo .area-campo {margin: 20px 0px;}
+.conteudo .area-campo label {width: 100%;}
+.conteudo .area-campo input {width: 100%; padding: 10px; border: 0; outline: none; border-radius: 4px; background: #6f6f6f; margin-top: 5px; color: #FFF;}
+
+.conteudo .area-total {margin: 10px 0px; border-top: 1px solid #8500ff; padding-top: 10px;}
+.conteudo .area-total .item-total {display: flex; justify-content: space-between; background-color: #8500ff; border-radius: 4px; margin: 10px 0px; padding: 10px;}
+
+@media (max-width: 580px) {
+    .conteudo {margin: 15px;}
+}
